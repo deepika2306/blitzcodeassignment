@@ -1,0 +1,56 @@
+<h3><center>
+    {{viewtitle}}</center>
+</h3>
+<html>
+<head>
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<form action="/library" method="POST"  autocomplete="off" class="w3-container">
+  
+    <div class="w3-row ">
+      <div class="w3-col m2"><h1></h1></div>
+      <div class="w3-col m8 w3-card">
+        <div class="w3-container w3-light-grey">
+  <h2>Student Registration Form</h2>
+</div>
+    <p>Please fill in this form to create an account.</p>
+    
+
+    <label class="w3-padding" ><b>Full Name</b></label>
+    <input class="w3-input" type="text" placeholder="Enter name"  name="fullname" required>
+
+
+   <label  class="w3-padding"><b>Class</b></label>
+   <input class="w3-input" type="text" placeholder="Enter class" name="class" required>
+    
+<label  class="w3-padding"><b>Address</b></label>
+ <input class="w3-input" type="text" name="address" required>
+   <label  class="w3-padding"><b>Mobile Number</b></label>
+   <input class="w3-input" type="text" placeholder="Enter your mobile" name="mobile" required>
+  
+<label class="w3-padding"><b>User Name</b></label></td>
+    <input class="w3-input" type="text" placeholder="Enter username" name="username" required>
+   
+    <label class="w3-padding"><b> Password</b></label>
+   <input class="w3-input" type="password" placeholder="Repeat Password" name="password" required>
+    <br><br>
+    <center>
+    <button type="submit" class="registerbtn w3-blue"> Register</button>&nbsp;&nbsp;
+    <button type="submit" class ="w3-blue" ><a href="/login">Login</a></button>&nbsp;&nbsp;
+      <button type="submit" class ="w3-blue" ><a href="/admin">Admin </a></button>&nbsp;&nbsp;
+     <p>By creating an account you agree to ourTerms & Privacy</a>.</p></center>
+     <div class="w3-container">
+    <p><center>Already have an account? <a href="/login"><b>Sign in</b></a>.</center></p>
+  </div>
+  </div>
+  </div>
+  
+  
+</form>
+
+</body>
+</html>

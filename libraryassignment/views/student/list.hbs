@@ -1,0 +1,22 @@
+<table class="table table-striped">
+    <thread>
+        <tr>
+            <td>fullname</td>
+            <td>class</td>
+            <td>address</td>
+            <td>mobile</td>
+            <td>username</td>
+        </tr>
+    </thread>
+    <tbody>
+        {{#each list}}
+        <tr>
+<td> {{ this.fullname}}</td>
+<td> {{ this.class}}</td>
+<td> {{ this.address}}</td>
+<td> {{ this.mobile}}</td>
+<td> {{ this.username}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
